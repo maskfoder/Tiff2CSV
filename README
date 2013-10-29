@@ -1,0 +1,16 @@
+ Tiff2CSV.py - Extracts EXIF tags and preview images from a directory of tiff/tif-files. 
+ Version 0.5
+ Contact: micke.lind@gmail.com
+ 
+ Required: Python 2.7 and external library pyexiv2 ( http://tilloy.net/dev/pyexiv2/download.html )
+
+ Version history:
+ 0.5 First acceptable version
+
+ Usage: Copy the script and the EXIF.txt to the image directory. Launch using 'python Tiff2CSV.py'
+ You can modify the EXIF tags extracted by adding or removing lines from the EXIF.txt file.
+
+ To do:
+ * Add argument parser
+ * Better error handling for broken image files.
+ * More verbose handling
